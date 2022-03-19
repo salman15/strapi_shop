@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_interactive_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_self"
+      ],
+      "default": "_blank"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "default"
+      ],
+      "default": "default"
+    }
+  }
+}
